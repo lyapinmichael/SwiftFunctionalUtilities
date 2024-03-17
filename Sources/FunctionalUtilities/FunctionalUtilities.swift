@@ -14,6 +14,8 @@ public protocol FUCoreUtilities: AnyObject {
 
 open class FunctionalUtilities: FUCoreUtilities {
     
+    public init() {}
+    
     /**  Returns optimal `X` value, which when passed to given closure as argument results closure to return a value in between of given maximal value and  result of substration of threshold value from maximal value.
      
      **Parameters:**
